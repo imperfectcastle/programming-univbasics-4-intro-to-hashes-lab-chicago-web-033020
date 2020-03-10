@@ -1,5 +1,5 @@
 def new_hash
-hash.new
+{}
 end
 
 def my_hash
@@ -8,8 +8,7 @@ def my_hash
 end
 
 def pioneer
-  {:name => 'Grace Hopper'}
-
+  {:name => "Grace Hopper"}
   # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
 end
 
@@ -29,10 +28,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if hash[key]
-    hash[key] += 1
-  else
-    hash[key] = 1
+
 
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
